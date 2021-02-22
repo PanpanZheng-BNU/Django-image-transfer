@@ -2,7 +2,10 @@ function getFileName(o) {
     let pos = o.lastIndexOf("\\");
     return o.substring(pos + 1);
 }
-
+function getFileName2(o) {
+    let pos = o.lastIndexOf("/");
+    return o.substring(pos + 1);
+}
 function previewAnduploadImage(image) {
     let reader = new FileReader();
     reader.readAsDataURL(image);
@@ -61,7 +64,8 @@ $(function () {
         } else {
             let a = document.createElement('a');
             a.href = $("#transfer-image-preview img").attr("src");
-            a.download = getFileName($("#transfer-image-preview img").attr("src"));
+            a.download = getFileName2($("#transfer-image-preview img").attr("src"));
+		console.log(getFileName2($("#transfer-image-preview img").attr("src")));
             a.click();
         }
     });

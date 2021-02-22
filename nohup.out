@@ -35,3 +35,28 @@ Not Found: /favicon.ico
 [22/Feb/2021 11:06:04] "GET /media/img/%E5%90%89%E5%8E%9F%E6%A0%BC%E5%AD%90%E5%85%88%E4%B9%8B%E5%9B%B3.jpg HTTP/1.0" 200 1755018
 [22/Feb/2021 11:06:31] "POST /imageTransfer HTTP/1.0" 200 132
 [22/Feb/2021 11:06:31] "GET /media/img/2fa24f36-cc26-41b6-4b49-12bba2a6c1c8.jpg HTTP/1.0" 200 1544342
+[22/Feb/2021 11:10:23] "GET / HTTP/1.0" 200 1645
+[22/Feb/2021 11:10:23] "GET /static/css/index.css HTTP/1.0" 304 0
+[22/Feb/2021 11:10:23] "GET /static/js/index.js HTTP/1.0" 304 0
+/home/transfer_image/Django-image-transfer/Transfer_Picture/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+February 22, 2021 - 10:21:40
+Django version 3.1.7, using settings 'Transfer_Picture.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[22/Feb/2021 11:18:39] "GET / HTTP/1.0" 200 1703
+[22/Feb/2021 11:19:08] "GET / HTTP/1.0" 200 1703
+[22/Feb/2021 11:19:08] "GET /static/css/index.css HTTP/1.0" 200 1417
+[22/Feb/2021 11:19:09] "GET /static/js/index.js HTTP/1.0" 200 4556
+[22/Feb/2021 11:19:17] "POST /imageTransfer HTTP/1.0" 200 310
+[22/Feb/2021 11:19:17] "GET /media/img/FireShot_Capture_005_-_%E9%83%91%E7%9B%BC%E7%9B%BC_-_[Springer_texts_in_statistics_[103]]_Hastie,_Trevor_James,_Gare__-_web.kamihq.com.png HTTP/1.0" 200 21384
+[22/Feb/2021 11:19:33] "POST /imageTransfer HTTP/1.0" 200 144
+[22/Feb/2021 11:19:33] "GET /media/img/%E5%90%89%E5%8E%9F%E6%A0%BC%E5%AD%90%E5%85%88%E4%B9%8B%E5%9B%B3.jpg HTTP/1.0" 200 1755018
+[22/Feb/2021 11:20:59] "POST /imageTransfer HTTP/1.0" 200 130
+[22/Feb/2021 11:20:59] "GET /media/img/Screenshot_from_2021-01-06_20-00-26.png HTTP/1.0" 200 348630
