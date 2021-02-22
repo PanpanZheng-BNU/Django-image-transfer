@@ -26,7 +26,7 @@ SECRET_KEY = 'nwa1^7!4q_2yxr$d=a*0er!2mv86z=w3dq&aix$6+$(17p=st&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['transfer-image.bnupsycher.xyz']
+ALLOWED_HOSTS = ['transfer-image.bnupsycher.xyz','127.0.0.1']
 
 
 # Application definition

@@ -85,7 +85,7 @@ $(function () {
         $(".upload-area").css("background-color", "#FAD689")
         $('.upload-area').addClass('dragging-over');
     });
-    
+
     $('.upload-area').on('dragstart', function (e) {
         e.stopPropagation();
         e.preventDefault();

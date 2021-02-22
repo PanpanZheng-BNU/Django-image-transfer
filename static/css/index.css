@@ -3,6 +3,11 @@
     pointer-events: none;
 }
 
+#attention {
+    color: #D0104C;
+    font-weight: bold;
+}
+
 #id_image_fields {
     display: none;
 }
