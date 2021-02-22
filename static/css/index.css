@@ -1,0 +1,92 @@
+/* upload region */
+.dragging-over * {
+    pointer-events: none;
+}
+
+#id_image_fields {
+    display: none;
+}
+
+.upload-container {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.upload-area {
+    width: 100%;
+    height: 15em;
+    line-height: 15em;
+    border-radius: 1em;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #CCCCCC;
+    vertical-align: middle;
+}
+
+.upload-area:hover {
+    cursor: pointer;
+}
+
+.upload-area h1 {
+    text-align: center;
+    font-weight: normal;
+    font-family: sans-serif;
+    font-size: 1.8em;
+    color: darkslategray;
+    vertical-align: middle;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/* name-region */
+.name-region {
+    width: 80vw;
+    margin-left: 10vw;
+    text-align: center;
+}
+
+#label-for-name {
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+}
+
+.btn-group {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.btn {
+    font-weight: bold;
+    width: 5em;
+}
+
+.btn-outline-primary:focus {
+    outline: none;
+    webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/* preview-region */
+.preview-region {
+    width: 80vw;
+    margin-left: 10vw;
+}
+
+
+#image-preview, #transfer-image-preview {
+    width: 47%;
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+}
+
+.card-header {
+    font-weight: bold;
+}
+
+#transfer-image-preview {
+    margin-left: 6%;
+}

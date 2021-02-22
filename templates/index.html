@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>templates</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/index.css">
+</head>
+
+<body>
+
+{{ form.image_fields }}
+<br/>
+<div class="upload-container">
+    <div class="upload-area" id="uploadfile">
+        <h1 class="dragging-over">将图片拖到此区域<br/>或<br/>点击此区域上传图片</h1>
+    </div>
+</div>
+<br>
+
+
+<br/>
+<div class="name-region">
+    <label for="id_name" id="label-for-name">转换后的文件名</label>
+    {{ form.name }}
+    <div class="btn-group">
+        <button type="submit" class="btn btn-outline-primary" id="submit">上传</button>
+        <button type="submit" class="btn btn-outline-primary" id="download">下载</button>
+    </div>
+</div>
+
+<div class="preview-region">
+    <div id="image-preview"></div><div id="transfer-image-preview"></div>
+</div>
+</body>
+
+<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+<!-- bootstrap.bundle.min.js 用于弹窗、提示、下拉菜单，包含了 popper.min.js -->
+<script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+<!-- 最新的 Bootstrap4 核心 JavaScript 文件 -->
+<script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="/static/js/index.js"></script>
+</html>
